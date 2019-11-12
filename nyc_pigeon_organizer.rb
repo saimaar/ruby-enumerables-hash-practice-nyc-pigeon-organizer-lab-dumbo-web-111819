@@ -1,5 +1,4 @@
-def nyc_pigeon_organizer(data)
- def pigeon_names(data)
+def pigeon_names(data)
   name_array = []
   data.each{ |k,v|
     value_obj = v
@@ -42,7 +41,3 @@ def nyc_pigeon_organizer(data)
   }
   return final_obj
 end
-
-end
-
-
